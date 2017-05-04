@@ -1,6 +1,6 @@
 {
   "name": "genie-router-plugin-echo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A genie-router plugin that exposes a brain that echoes the input received from the client.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   ],
   "author": "matueranet",
   "license": "MIT",
-  "genie-router-plugin": {
+  "genieRouterPlugin": {
     "name": "echo"
   },
   "devDependencies": {
