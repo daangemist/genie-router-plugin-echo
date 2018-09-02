@@ -1,26 +1,36 @@
 {
-  "name": "genie-router-plugin-echo",
-  "version": "1.0.1",
+  "name": "@genie-ai/genie-router-plugin-echo",
+  "version": "2.0.0",
   "description": "A genie-router plugin that exposes a brain that echoes the input received from the client.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-echo"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-echo"
   },
   "keywords": [
     "genie-router",
     "plugin",
     "echo"
   ],
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "matueranet",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genie-ai/genie-router-plugin-echo/issues"
+  },
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-echo#readme",
   "genieRouterPlugin": {
-    "name": "echo"
+    "name": "echo",
+    "apiVersion": "1.0.0"
   },
   "devDependencies": {
-    "standard": "^10.0.2"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   }
 }
